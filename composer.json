@@ -1,6 +1,18 @@
 {
+  "name": "azuread/active-directory-b2c-wordpress-plugin-openidconnect",
+  "description": "A plugin that allows users to log in using B2C policies.",
+  "type": "wordpress-plugin",
+  "license": "TBD",
+  "authors": [
+    {
+      "name": "Microsoft",
+      "email": "gsacavdm@microsoft.com"
+    }
+  ],
   "require": {
-    "phpunit/phpunit": "3.7.*",
     "firebase/php-jwt": "^4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
   }
 }
