@@ -17,6 +17,18 @@
 /**
  * Requires the autoloaders.
  */
+spl_autoload_register( function ( $className ) {
+    // only try to autoload AD B2C classes
+    if ( 0 !== strpos( $className, 'B2C' ) ) {
+        return;
+    }
+
+    $filename   = 'class-' . strtolower( str_replace( '_', '-', $className ) ) . '.php';
+    $directory = plugin_dir_path( __FILE__ );
+    if ( file_exists( $directory . $filename ) ) {
+        require_once $filename;
+    }
+} );
 require 'vendor/autoload.php';
 
 /**
