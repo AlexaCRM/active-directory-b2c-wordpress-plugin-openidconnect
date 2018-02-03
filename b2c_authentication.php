@@ -169,7 +169,7 @@ function b2c_verify_token() {
 			wp_set_auth_cookie($userID);
 
 			// Redirect to home page
-			wp_safe_redirect(site_url() . '/');
+			wp_safe_redirect(home_url() . '/');
 			exit;
 		}
 	} catch (Exception $e) {

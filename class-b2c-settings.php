@@ -30,7 +30,7 @@ class B2C_Settings {
 			self::$generic_policy = $config_elements['b2c_subscriber_policy_id'];
 			self::$admin_policy = $config_elements['b2c_admin_policy_id'];
 			self::$edit_profile_policy = $config_elements['b2c_edit_profile_policy_id'];
-			self::$redirect_uri = urlencode(home_url().'/');
+			self::$redirect_uri = urlencode(site_url().'/');
 			if ($config_elements['b2c_verify_tokens']) self::$verify_tokens = 1;
 			else self::$verify_tokens = 0;
 		}
