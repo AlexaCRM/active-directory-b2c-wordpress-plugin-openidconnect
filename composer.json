@@ -1,8 +1,8 @@
 {
-  "name": "azuread/active-directory-b2c-wordpress-plugin-openidconnect",
+  "name": "alexacrm/active-directory-b2c-wordpress-plugin-openidconnect",
   "description": "A plugin that allows users to log in using B2C policies.",
   "type": "wordpress-plugin",
-  "license": "TBD",
+  "license": "MIT",
   "authors": [
     {
       "name": "Microsoft",
