@@ -4,7 +4,7 @@
  * Plugin Name: Microsoft Azure Active Directory B2C Authentication
  * Plugin URI: https://github.com/AzureAD/active-directory-b2c-wordpress-plugin-openidconnect
  * Description: A plugin that allows users to log in using B2C policies
- * Version: 1.0
+ * Version: 1.0.5
  * Author: Microsoft
  * Author URI: https://azure.microsoft.com/en-us/documentation/services/active-directory-b2c/
  * License: MIT License (https://raw.githubusercontent.com/AzureAD/active-directory-b2c-wordpress-plugin-openidconnect/master/LICENSE)
