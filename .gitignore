@@ -1,3 +1,4 @@
 .idea/
 vendor/*
 !vendor/.gitkeep
+.vscode/settings.json
